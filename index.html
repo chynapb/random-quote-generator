@@ -9,14 +9,23 @@
       href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
+    <h1 class="header">Famous Quote Generator</h1>
     <div class="container">
-      <div class="content">
-        <h1 class="header">Famous Quote Generator</h1>
-        <div id="quote"></div>
-        <button id="button">New Quote</button>
-      </div>
+      <h1 class="h1-quote">
+        <i class="fa-solid fa-quote-left" style="color: #2e2e2e"></i>
+        <span class="quote" id="quote"></span>
+        <i class="fa-solid fa-quote-right" style="color: #838383"></i>
+      </h1>
+
+      <p id="author"></p>
+
+      <button id="button">New Quote</button>
     </div>
   </body>
   <script src="script.js"></script>

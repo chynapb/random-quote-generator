@@ -2,29 +2,50 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background: #9db3f1;
+  background: #9fb6f7;
 }
 
 .container {
   width: 100%;
-  min-height: 100vh;
+  margin: 125px auto;
+  text-align: center;
+  width: 600px;
+  background: #fff;
+  padding: 20px 40px 20px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.384);
+  color: rgb(56, 56, 56);
+  border-radius: 5px;
 }
 
-h1 {
+.header {
   margin: 50px auto;
   text-align: center;
 }
 
-#quote {
-  margin: 100px auto;
-  text-align: center;
-  width: 605px;
+h1 i {
   background: #fff;
-  padding: 40px 40px 40px;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.384);
+  font-size: 25px;
+}
+
+.h1-quote {
+  margin: 30px auto;
+  background: #fff;
+}
+
+#quote {
+  background: #fff;
+  text-align: center;
   font-size: 26px;
   color: rgb(56, 56, 56);
-  border-radius: 5px;
+}
+
+#author {
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  background: #fff;
+  font-size: 24px;
+  color: rgb(80, 80, 80);
 }
 
 #button {
@@ -33,6 +54,7 @@ h1 {
   padding: 12px 20px;
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 20px;
   display: block;
   background: rgb(228, 88, 53);
   color: #fff;

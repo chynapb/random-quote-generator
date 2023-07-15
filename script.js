@@ -1,5 +1,6 @@
 const button = document.getElementById('button');
-const quoteDiv = document.getElementById('quote');
+const quote = document.getElementById('quote');
+const author = document.getElementById('author');
 
 // Fetch quote from API
 const getQuote = () => {
@@ -12,12 +13,13 @@ const getQuote = () => {
       return res.json();
     })
     .then((data) => displayQuote(data))
-    .catch((error) => (quoteDiv.innerHTML = error));
+    .catch((error) => (quote.innerHTML = error));
 };
 
 // Display quote to DOM
-const displayQuote = (quote) => {
-  quoteDiv.innerHTML = `"${quote.content}" <br> - ${quote.author}`;
+const displayQuote = (data) => {
+  quote.innerHTML = `${data.content}`;
+  author.innerHTML = `- ${data.author}`;
 };
 
 // Event listeners
