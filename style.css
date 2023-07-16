@@ -3,6 +3,12 @@
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
   background: #9fb6f7;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 50px auto;
+  text-align: center;
 }
 
 .container {
@@ -17,18 +23,18 @@
   border-radius: 5px;
 }
 
-.header {
-  margin: 50px auto;
-  text-align: center;
+.quote-div {
+  margin: 30px auto;
+  background: #fff;
 }
 
-h1 i {
+i {
   background: #fff;
   font-size: 25px;
 }
 
-.h1-quote {
-  margin: 30px auto;
+span {
+  display: flex;
   background: #fff;
 }
 
@@ -37,6 +43,7 @@ h1 i {
   text-align: center;
   font-size: 26px;
   color: rgb(56, 56, 56);
+  margin: 5px;
 }
 
 #author {
